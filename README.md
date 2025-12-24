@@ -1,47 +1,23 @@
-**After repository creation:**
-- [ ] Update this `README.md`. Update the Project Name, description, and all sections. Remove this checklist.
-- [ ] If required, update `LICENSE.txt` and the License section with your project's approved license
-- [ ] Search this repo for "REPLACE-ME" and update all instances accordingly
-- [ ] Update `CONTRIBUTING.md` as needed
-- [ ] Review the workflows in `.github/workflows`, updating as needed. See https://docs.github.com/en/actions for information on what these files do and how they work.
-- [ ] Review and update the suggested Issue and PR templates as needed in `.github/ISSUE_TEMPLATE` and `.github/PULL_REQUEST_TEMPLATE`
+# VoiceAI dataset
 
-# Project Name
+This project provides a collection of datasets that are used in the VoiceAI notebooks from QPM (Qualcomm Package Manager) releases. You can download the datasets from this repository to eliminate the need to download the full large dataset.
 
-*\<update with your project name and a short description\>*
+## Dataset list
 
-Project that does ... implemented in ... runs on Qualcomm® *\<processor\>*
-
-## Branches
-
-**main**: Primary development branch. Contributors should develop submissions based on this branch, and submit pull requests to this branch.
-
-## Requirements
-
-List requirements to run the project, how to install them, instructions to use docker container, etc...
-
-## Installation Instructions
-
-How to install the software itself.
+| Dataset           |  Description    | Download      |
+| :---------------- | :---------------|:-------------:|
+| Common Voice for Whisper notebook   | a small portion of [Common Voice ](https://commonvoice.mozilla.org/en/datasets) V9 English dataset  | [Link](https://github.com/qualcomm/voiceai-dataset/releases/download/whisper_dataset/common_voice_9.0_for_whisper_notebook.zip) |
+| LibriSpeech for Whisper notebook    | a small portion of `train-clean-100` and `train-other-500` <br> datasets from [LibriSpeech](https://www.openslr.org/12) | [Link](https://github.com/qualcomm/voiceai-dataset/releases/download/whisper_dataset/LibriSpeech_for_whisper_notebook.zip) |
+| Common Voice for Zipformer notebook | a small portion of [Common Voice](https://commonvoice.mozilla.org/en/datasets) V9 English and Chinese datasets | [Link](https://github.com/qualcomm/voiceai-dataset/releases/download/zipformer_dataset/common_voice_9.0_for_zipformer_notebook.zip) |
 
 ## Usage
 
-Describe how to use the project.
-
-## Development
-
-How to develop new features/fixes for the software. Maybe different than "usage". Also provide details on how to contribute via a [CONTRIBUTING.md file](CONTRIBUTING.md).
+Download the datasets from the releases page and follow the notebook of the VoiceAI model you are using for further instructions.
 
 ## Getting in Contact
 
-How to contact maintainers. E.g. GitHub Issues, GitHub Discussions could be indicated for many cases. However a mail list or list of Maintainer e-mails could be shared for other types of discussions. E.g.
-
 * [Report an Issue on GitHub](../../issues)
-* [Open a Discussion on GitHub](../../discussions)
-* [E-mail us](mailto:REPLACE-ME@qti.qualcomm.com) for general questions
 
 ## License
 
-*\<update with your project name and license\>*
-
-*\<REPLACE-ME\>* is licensed under the [BSD-3-clause License](https://spdx.org/licenses/BSD-3-Clause.html). See [LICENSE.txt](LICENSE.txt) for the full license text.
+The project is licensed under the [BSD-3-clause License](https://spdx.org/licenses/BSD-3-Clause.html). See [LICENSE.txt](LICENSE.txt) for the full license text.
