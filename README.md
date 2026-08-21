@@ -8,7 +8,8 @@ This project provides a collection of datasets that are used in the VoiceAI note
 | :---------------- | :---------------|:-------------:|
 | Common Voice for Whisper notebook   | a small portion of [Common Voice ](https://commonvoice.mozilla.org/en/datasets) V9 English dataset  | [Link](https://github.com/qualcomm/voiceai-dataset/releases/download/whisper_dataset/common_voice_9.0_for_whisper_notebook.zip) |
 | LibriSpeech for Whisper notebook    | a small portion of `train-clean-100` and `train-other-500` <br> datasets from [LibriSpeech](https://www.openslr.org/12) | [Link](https://github.com/qualcomm/voiceai-dataset/releases/download/whisper_dataset/LibriSpeech_for_whisper_notebook.zip) |
-| Common Voice for Zipformer notebook | a small portion of [Common Voice](https://commonvoice.mozilla.org/en/datasets) V9 English and Chinese datasets | [Link](https://github.com/qualcomm/voiceai-dataset/releases/download/zipformer_dataset/common_voice_9.0_for_zipformer_notebook.zip) |
+| Common Voice for Zipformer notebook | a small portion of [Common Voice](https://commonvoice.mozilla.org/en/datasets) V9 datasets (1000 English + 1000 Chinese utterances) | [Link](https://github.com/qualcomm/voiceai-dataset/releases/download/zipformer_dataset/common_voice_9.0_for_zipformer_notebook.zip) |
+| Common Voice for Zipformer notebook v2| a small portion of [Common Voice](https://commonvoice.mozilla.org/en/datasets) V9 datasets (1500 English + 1500 Chinese utterances) | [Link](https://github.com/qualcomm/voiceai-dataset/releases/download/zipformer_dataset_v2/common_voice_9.0_for_zipformer_notebook_v2.zip) |
 
 ## Usage
 
